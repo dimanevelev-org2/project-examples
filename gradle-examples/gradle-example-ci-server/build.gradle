@@ -28,6 +28,16 @@ allprojects {
   status = 'integration'
 }
 
+configure(javaProjects()) {
+    apply plugin: 'java'
+    apply plugin: 'maven-publish'
+
+    dependencies {
+        testCompile 'junit:junit:4.7'
+    }
+}
+
+
 // Setting this property to true will make the artifactoryPublish task
 // skip this module (in our case, the root module):
 artifactoryPublish.skip = true

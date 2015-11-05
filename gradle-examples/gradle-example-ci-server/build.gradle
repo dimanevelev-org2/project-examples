@@ -18,9 +18,6 @@ buildscript {
   repositories {
     jcenter()
   }
-  dependencies {
-         'junit:junit:4.7'
-  }
 }
 
 allprojects {

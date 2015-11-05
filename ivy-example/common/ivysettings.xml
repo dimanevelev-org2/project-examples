@@ -11,7 +11,7 @@
       </filesystem>
       <ibiblio name="public" m2compatible="true" root="http://10.0.0.221:8081/artifactory/libs-release" />
       <url name="artifactory" m2compatible="false">
-        <ivy pattern="http://10.0.0.211:8081/artifactory/ivy-local/[organization]/[module]/[revision]/[type]s/ivy-[revision].xml" />
+        <ivy pattern="http://10.0.0.221:8081/artifactory/ivy-local/[organization]/[module]/[revision]/[type]s/ivy-[revision].xml" />
 	<artifact pattern="http://10.0.0.221:8081/artifactory/ivy-local/[organization]/[module]/[revision]/[type]s/[module](-[classifier])-[revision].[ext]" />
       </url>
     </chain>
